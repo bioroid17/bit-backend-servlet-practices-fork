@@ -33,7 +33,6 @@
 	</table>
 	
 	<br>
-	
 	<img src="/helloweb/assets/images/loopy.jpg" style="width:200px">
 	
 	<p>
