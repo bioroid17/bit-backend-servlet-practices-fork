@@ -1,4 +1,4 @@
-package com.douzone.guestbook.controller;
+package com.bitacademy.guestbook.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.douzone.guestbook.dao.GuestbookDao;
-import com.douzone.guestbook.vo.GuestbookVo;
+import com.bitacademy.guestbook.dao.GuestbookDao;
+import com.bitacademy.guestbook.vo.GuestbookVo;
 
 public class GuestbookServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
