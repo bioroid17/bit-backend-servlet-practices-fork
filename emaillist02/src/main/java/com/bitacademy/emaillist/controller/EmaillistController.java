@@ -1,4 +1,4 @@
-package com.bitacademy.emailist.controller;
+package com.bitacademy.emaillist.controller;
 
 import java.io.IOException;
 import java.util.List;

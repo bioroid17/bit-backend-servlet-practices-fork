@@ -13,7 +13,7 @@
     <description></description>
     <display-name>EmaillistController</display-name>
     <servlet-name>EmaillistController</servlet-name>
-    <servlet-class>com.bitacademy.emailist.controller.EmaillistController</servlet-class>
+    <servlet-class>com.bitacademy.emaillist.controller.EmaillistController</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>EmaillistController</servlet-name>
