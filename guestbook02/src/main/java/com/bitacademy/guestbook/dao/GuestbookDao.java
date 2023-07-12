@@ -1,4 +1,4 @@
-package com.bitacademy.guestbook.dao;
+package com.douzone.guestbook.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bitacademy.guestbook.vo.GuestbookVo;
+import com.douzone.guestbook.vo.GuestbookVo;
 
 public class GuestbookDao {
 	public Boolean deleteByNoAndPassword(Long no, String password) {
@@ -147,7 +147,7 @@ public class GuestbookDao {
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
 			
-			String url = "jdbc:mariadb://192.168.0.155:3306/webdb?charset=utf8";
+			String url = "jdbc:mariadb://192.168.10.125:3307/webdb?charset=utf8";
 			conn = DriverManager.getConnection(url, "webdb", "webdb");
 		} catch (ClassNotFoundException e) {
 			System.out.println("드라이버 로딩 실패:" + e);

@@ -1,7 +1,7 @@
-package com.bitacademy.guestbook.vo;
+package com.douzone.guestbook.vo;
 
 public class GuestbookVo {
-private Long no;
+	private Long no;
 	private String name;
 	private String message;
 	private String password;
