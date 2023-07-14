@@ -38,6 +38,15 @@
 
 
 	<h4>논리 연산</h4>
+	${ival == 10 && lval < 10000 } <br>
+	${ival == 10 || lval < 10000 } <br>
+	
+	<h4>요청 파라미터</h4>
+	-${param.a }-			<br>
+	-${param.email }-		<br>
+	
+	<h4>Context Path</h4>
+	${pageContext.request.contextPath }
 	
 </body>
 </html>
